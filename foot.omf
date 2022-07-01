@@ -49,7 +49,7 @@ setInterval(setTime, 1000);
 </script>
 <!--结束-->
 
-<p>本站所有资源均来自于互联网,如有关资源侵犯了你的权益，请联系告之，本站将于24小时内删除.</p>
+<p>本站所有资源均来自于互联网，如有关资源侵犯了你的权益，请<a href="mailto:ee@xjj.ee" target="_blank" rel="nofollow noopener" marked="1">联系邮件</a>告之，本站将于24小时内删除.</p>
 <div style="color: rgba(0,0,0,1);"><!--FootStr--></div>
                     </center>
 
