@@ -1,0 +1,60 @@
+<div class="container-fluid" style="padding-top: 1px;">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <div class="jumbotron">
+                <div class="container">
+                    <center>
+
+<!--页脚运行时长开始--> 
+本站基于 <a href="https://github.com/qkqpttgf/OneManager-php" target="_blank" rel="nofollow noopener" marked="1">OneManager</a> · 托管于 <a href="https://vercel.com" target="_blank" rel="nofollow noopener" marked="1">Vercel</a> · 已平稳运行：<span id="htmer_time" style="color: #0196e3;"></span>
+<script>
+function secondToDate(second) {
+if (!second) {
+return 0;
+}
+var time = new Array(0, 0, 0, 0, 0);
+if (second >= 365 * 24 * 3600) {
+time[0] = parseInt(second / (365 * 24 * 3600));
+second %= 365 * 24 * 3600;
+}
+if (second >= 24 * 3600) {
+time[1] = parseInt(second / (24 * 3600));
+second %= 24 * 3600;
+}
+if (second >= 3600) {
+time[2] = parseInt(second / 3600);
+second %= 3600;
+}
+if (second >= 60) {
+time[3] = parseInt(second / 60);
+second %= 60;
+}
+if (second > 0) {
+time[4] = second;
+}
+return time;
+}
+</script>
+<script type="text/javascript" language="javascript">
+function setTime() {
+var create_time = Math.round(new Date(Date.UTC(2020, 12, 30, 0, 0, 1)).getTime() / 1000);
+var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+currentTime = secondToDate((timestamp - create_time));
+currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
++ currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
++ '秒';
+document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+}
+setInterval(setTime, 1000);
+</script>
+<!--结束-->
+
+<p>本站所有资源均来自于互联网,如有关资源侵犯了你的权益，请联系告之，本站将于24小时内删除.</p>
+<div style="color: rgba(0,0,0,1);"><!--FootStr--></div>
+                    </center>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
