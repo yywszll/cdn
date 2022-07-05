@@ -6,7 +6,7 @@
                     <center>
 
 <!--页脚运行时长开始--> 
-本站基于 <a href="https://github.com/qkqpttgf/OneManager-php" target="_blank" rel="nofollow noopener" marked="1">OneManager</a> · 托管于 <a href="https://vercel.com" target="_blank" rel="nofollow noopener" marked="1">Vercel</a> · 已平稳运行：<span id="htmer_time" style="color: #0196e3;"></span>
+本站托管于 <a href="https://vercel.com" target="_blank" rel="nofollow noopener" marked="1">Vercel</a> · 已平稳运行：<span id="htmer_time" style="color: #0196e3;"></span>
 <script>
 function secondToDate(second) {
 if (!second) {
