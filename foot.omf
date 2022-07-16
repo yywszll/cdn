@@ -6,7 +6,7 @@
                     <center>
 
 <!--页脚运行时长开始--> 
-托管于 <a href="https://github.com" target="_blank" rel="nofollow noopener" marked="1">Github</a> & <a href="https://vercel.com" target="_blank" rel="nofollow noopener" marked="1">Vercel</a>· 已运行：<span id="htmer_time" style="color: #0196e3;"></span>
+托管于 <a href="https://github.com" target="_blank" rel="nofollow noopener" marked="1">Github</a> & <a href="https://vercel.com" target="_blank" rel="nofollow noopener" marked="1">Vercel</a>·已运行:<span id="htmer_time" style="color: #0196e3;"></span>
 <script>
 function secondToDate(second) {
 if (!second) {
